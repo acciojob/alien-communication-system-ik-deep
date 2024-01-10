@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .task {
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid #333;
+    }
+
+    .microtask {
+      background-color: #ffcc00;
+    }
+
+    .macrotask {
+      background-color: #ff6666;
